@@ -1,0 +1,159 @@
+.s-hidden {
+    visibility:hidden;
+    padding-right:10px;
+}
+.select {
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    font:normal 11px/22px Arial, Sans-Serif;
+    color:black;
+    border:1px solid #ccc;
+}
+.styledSelect {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:white;
+    padding:0 10px;
+    font-weight:bold;
+}
+.styledSelect:after {
+    content:"";
+    width:0;
+    height:0;
+    border:5px solid transparent;
+    border-color:black transparent transparent transparent;
+    position:absolute;
+    top:9px;
+    right:6px;
+}
+.styledSelect:active, .styledSelect.active {
+    background-color:#eee;
+}
+.options {
+    display:none;
+    position:absolute;
+    top:100%;
+    right:0;
+    left:0;
+    z-index:999;
+    margin:0 0;
+    padding:0 0;
+    list-style:none;
+    border:1px solid #ccc;
+    background-color:white;
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.options li {
+    padding:0 6px;
+    margin:0 0;
+    padding:0 10px;
+}
+.options li:hover {
+    background-color:#39f;
+    color:white;
+}
+
+/*______loader___________*/
+/**/
+.join-section .fade-text h2
+{
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+
+}
+.loader- {
+    width: 100%;
+    height: 4px;
+    background: #33333373;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    position: relative;
+}
+.loader-:before {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: -6px;
+    left: -4px;
+    background: #333;
+    border-radius: 50%;
+}
+
+.loader-:after {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: -6px;
+    left: 50%;
+    background: #5e5e5e;
+    border-radius: 50%;
+}
+.loader- .loader-bar {
+    display: block;
+    height: 100%;
+    background-size: 300% 100%;
+    width: 0;
+    animation: progress-animation-1 3s normal forwards;
+    background-color: var(--heading-color);
+}
+.loader .loader-bar {
+    display: block;
+    height: 100%;
+    background-size: 300% 100%;
+    width: 0;
+    animation: progress-animation 3s normal forwards;
+    background-color: var(--heading-color);
+}
+@keyframes progress-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes progress-animation-1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+
+/*__________________tmh-modal_______________*/
+
+.tmh-modal
+{
+    padding: 0 !important
+}
+.tmh-modal .modal-dialog
+{
+    max-width: 100%;
+    height: 100%;
+    margin: 0!important;
+}
+.tmh-modal .modal-dialog .modal-content
+{
+    height: 100%
+}
+.tmh-wrap ul
+{
+    padding-left: 32px;
+}
+.tmh-wrap li
+{
+    margin-bottom: 16px;
+    list-style: numeric
+}

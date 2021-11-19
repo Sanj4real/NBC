@@ -1,0 +1,183 @@
+@media (max-width: 1179px) and (min-width: 992px) {
+    /*_header-section__*/
+    .l-header {
+        padding-right: 15px;
+    }
+    .l-header__inner {
+        padding-right: 0;
+    }
+    .l-header .header-searchbar-wrap,
+    .l-header .search-right {
+        margin-left: 15px;
+    }
+    .l-header .searchTerm {
+        min-width: 450px;
+    }
+    .l-header #selectbox1,
+    .search-right #selectbox1 {
+        min-width: 260px;
+    }
+    .l-header .user-info {
+        min-width: 5.8em;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    /*_header-section__*/
+    .l-header {
+        padding-right: 15px;
+    }
+    .l-header__inner {
+        padding-right: 0;
+    }
+    .l-header .header-searchbar-wrap,
+    .l-header .search-right {
+        margin-left: 15px;
+    }
+    .l-header .searchTerm {
+        min-width: 330px;
+    }
+    .l-header #selectbox1,
+    .search-right #selectbox1 {
+        min-width: 200px;
+    }
+    .l-header .user-info {
+        min-width: 5.8em;
+    }
+
+    /*__________index-php_______*/
+    main.l-main .dashboard-overview .overview-head {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    main.l-main .dashboard-overview .details-block {
+        margin-bottom: 30px;
+    }
+    main.l-main .dashboard-overview .dasboard-graph-details {
+        margin-top: 0;
+    }
+    main.l-main .dashboard-overview .dashboard-emp-details {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    /*_________header-sec_______*/
+    .l-header__inner {
+        padding: 0 0px 0 15px;
+    }
+    .l-header {
+        padding-right: 15px;
+    }
+    .l-header .search {
+        display: none;
+    }
+    .l-header #selectbox1,
+    .search-right #selectbox1 {
+        min-width: 150px;
+    }
+    .la-header .l-header__inner {
+        padding-right: 0;
+    }
+    .l-header .header-searchbar-wrap {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+    .l-header .search-right {
+        margin-left: 0;
+    }
+    .l-header .user-info {
+        min-width: 8em;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .l-header .user-info button:first-child {
+        display: inline-block;
+    }
+
+    /*_________index.php___________*/
+    main.l-main .dashboard-overview .overview-head {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    main.l-main .dashboard-overview .details-block {
+        margin-bottom: 15px;
+    }
+    main.l-main .dashboard-overview .dasboard-graph-details {
+        margin-top: 0;
+    }
+    main.l-main .dashboard-overview .dashboard-emp-details {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 414px) {
+    /*_________header-sec_______*/
+    .l-header__inner {
+        padding: 0 6px;
+    }
+    .l-header {
+        padding-right: 15px;
+    }
+
+    .l-header #selectbox1,
+    .search-right #selectbox1 {
+        min-width: 150px;
+    }
+
+    .l-header .header-searchbar-wrap {
+        margin-left: 0;
+        padding: 0 6px;
+    }
+
+    .l-header .user-info {
+        min-width: 6.3em;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .l-header .user-info button {
+        font-size: 22px;
+        margin: 0 2px;
+    }
+}
+@media (max-width: 360px) {
+    /*_________header-sec_______*/
+    .l-header__inner {
+        padding: 0 6px;
+    }
+    .l-header {
+        padding-right: 0px;
+    }
+
+    .l-header #selectbox1,
+    .search-right #selectbox1 {
+        min-width: 110px;
+    }
+
+    .l-header .header-searchbar-wrap {
+        margin-left: 0;
+        padding: 0 6px;
+    }
+
+    .l-header .user-info {
+        /*min-width: 6em;*/
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .l-header .user-info button {
+        font-size: 22px;
+        margin: 0 2px;
+    }
+
+    /*_onclick_________*/
+    .z-index {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .z-index .l-header__inner {
+        padding-left: 0;
+    }
+    .z-index .search-right #selectbox1 {
+        min-width: 161px;
+    }
+}
